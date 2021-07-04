@@ -1,6 +1,6 @@
 import random
 
-# *****
+# ***GAME FUCTION**
 def swg_game(comp_turn, p, n, round_num, comp_win, player_win):
 	while(round_num<=n):
 		p= input("Player's Turn: ")
@@ -62,6 +62,9 @@ def swg_game(comp_turn, p, n, round_num, comp_win, player_win):
 			print("You scored new HI SCORE")
 			f.write(str(points))
 
+# **************************************************
+# MAIN FUNCTION
+# **************************************************
 
 print("SNAKE - WATER - GUN")
 n = int(input("Enter number of rounds : "))  #Number of rounds
@@ -82,8 +85,3 @@ cw = 0;   #Count of computer wins
 pw = 0;   #Count of player wins
 
 a = swg_game(comp_turn,p,n,rn,cw,pw)   #Calling function swg_gun
-
-
-
-# print("Computer choice : ",comp_turn)
-# print("Player turn", p)

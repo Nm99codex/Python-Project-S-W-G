@@ -8,3 +8,6 @@ Gun vs. Snake: Gun will kill the snake and win.
 In situations where both players choose the same object, match tie.
 
 In this program , random module is used and rand.int() function inorder to get computer's choice randomly.
+After the completion of some round of gaming , it will give final winner.
+
+And add the high score in the hi_score.txt file
